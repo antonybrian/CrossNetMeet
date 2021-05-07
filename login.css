@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600;700&family=Raleway:wght@400;600&family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.login-box{
+    
+    display: flex;
+   
+}
+.left-side{
+    background: dodgerblue;
+    color: white;
+    width: 50%;
+    height: 100vh;
+    position: relative;.
+
+    
+}
+.line{
+    background-color: #fff;
+    height: 4px;
+    width: 150px;
+}
+.elements{
+    width: 60%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elements a{
+    padding: 9px 25px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 20px;
+}
+.elements a:hover{
+    border: none;
+    background: #fff;
+    color: dodgerblue;
+}
+.login-container {
+    padding: 50px;
+}
+.login-container h3{
+    font-size: 33px;
+    
+}
+.login-container input{
+    width: 100%;    
+    padding:10px 0;
+    line-height:20px;
+    margin: 25px 0;
+    text-align: center;
+    background: transparent;
+    border: 2px solid gray;
+    font-size: 18px;
+    
+    
+    
+}
+input:focus{
+    outline: none !important;
+    border:2px solid #007af3;
+}
+.login-container input::placeholder{
+    color:rgba(0, 0, 0, 0.8);
+
+}   #forgot{
+    color: #007af3;
+    transition: all 0.3s ease;
+}
+.forgot-sign-div{
+    margin:15px 0;
+}
+#no-account{
+    color: #007af3;
+    float: right;
+    transition: all 0.3s ease;
+}
+.forgot-sign-div a{
+    text-decoration: none;
+}
+#no-account span{
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+#forgot:hover, #no-account span:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1px;
+    color: #007af3;
+}
+#login-button{
+    width: 100%;
+    padding:10px 0;
+    margin-top: 20px;
+    line-height:30px;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+    color: #fff;
+    outline: none;
+    border: none;
+    
+}
+#login-button:hover{
+    background:rgba(0, 122, 243, 1);    
+    font-size: 20px;
+    
+
+}
+#forgot{
+    color: #007af3;
+    transition: all 0.3s ease;
+}
+.forgot-sign-div{
+    margin:15px 0;
+}
+#no-account{
+    color: #007af3;
+    float: right;
+    transition: all 0.3s ease;
+}
+.forgot-sign-div a{
+    text-decoration: none;
+}
+#no-account span{
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+#forgot:hover, #no-account span:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1px;
+    color: #007af3;
+}
